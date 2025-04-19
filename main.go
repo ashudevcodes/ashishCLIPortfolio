@@ -40,12 +40,12 @@ func changeViewToAboutScreen(m model) (tea.Model, tea.Cmd) {
 }
 
 func mainView(m model) string {
-	return fmt.Sprintf("\n \n Hi!! I AM %s \n\n\n", keystyle.Render(" ASHISH!"), m.screen)
+	return fmt.Sprintf("\n \n Hi!! I AM %s \n\n\n", keystyle.Render(" ASHISH!"))
 
 }
 
 func aboutView(m model) string {
-	return fmt.Sprintf("\n \n Hi!! I AM %s I mainly work on Backend %s\n\n\n", keystyle.Render(" Software Developer  "), m.screen)
+	return fmt.Sprintf("\n \n Hi!! I AM %s I mainly work on Backend %s\n\n\n", keystyle.Render(" Software Developer  "))
 
 }
 
